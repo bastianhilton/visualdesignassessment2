@@ -1,0 +1,85 @@
+/********************Main CSS */
+header {
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    margin: 0px;
+    background-color: deepskyblue;
+    z-index: 99999;
+}
+
+header li {
+    display: inline-block;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.rightnav {
+    float: right;
+    right: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+ .assessmentOne {
+  padding: 5%;
+ }
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 20px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    padding-right: 10%;
+  }
+
+  .column video {
+    margin-top: 8px;
+    vertical-align: middle;
+    height: 100%;
+  }
+
+  footer {
+    width: 100%;
+    margin: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
+
+  footer p {
+    text-align: center;
+    font-size: 25px;
+  }
+
+/*****************Assessment Two CSS *********/
+
+.assessmentTwo {
+    padding-bottom: 150px;
+}
+
+.assessmentTwo h1 {
+    text-align: center;
+    top: 50px;
+    position: relative;
+}
+
+.assessmentTwo img, .assessmentTwo video {
+    width: 50%;
+    top: 30px;
+    left: 25%;
+    position: relative;
+}
