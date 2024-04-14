@@ -83,3 +83,15 @@ header a {
     left: 25%;
     position: relative;
 }
+
+/*****************Assessment Three CSS *********/
+
+#quote-container {
+  width: 100%;
+  padding-top: 10px;
+}
+
+#quote-container p {
+  text-align: center !important;
+  color: white !important;
+}
